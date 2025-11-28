@@ -9,7 +9,6 @@ export interface TaskViewModel extends TaskCreacionModel {
   idTask: number,
 }
 
-export interface AprobacionRechazoModel {
-  comentario: string,
-  estado: number,
+export interface TaskStatusModel {
+  estado: string,
 }
